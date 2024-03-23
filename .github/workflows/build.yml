@@ -25,6 +25,7 @@ jobs:
               -G Ninja
               -DMJPC_BUILD_GRPC_SERVICE:BOOL=ON
             tmpdir: "/tmp"
+            
 
     name: "MuJoCo MPC on ${{ matrix.os }} ${{ matrix.additional_label }}"
     runs-on: ${{ matrix.os }}
